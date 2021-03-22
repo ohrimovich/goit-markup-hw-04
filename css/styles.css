@@ -145,6 +145,11 @@ img {
   margin-right: 10px;
 }
 
+.contact-list .link:hover,
+.contact-list .link:focus {
+  fill: var(--accent-color);
+}
+
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -306,6 +311,35 @@ img {
 .team-list-item-text {
   font-size: 16px;
   line-height: 1.18;
+}
+
+.social-net {
+  margin-top: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.social-net .link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.social-net .link:hover,
+.social-net .link:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-net .item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Footer */
