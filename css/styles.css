@@ -510,6 +510,11 @@ img {
   color: var(--main-text-color);
 }
 
+.our-works-cards-list-item:hover p,
+.our-works-cards-list-item:focus p {
+  color: var(--main-text-color);
+}
+
 .our-works-cards-list-content {
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
