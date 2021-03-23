@@ -170,7 +170,7 @@ img {
 
 .overlay {
   max-width: 1600px;
-  height: 600px;
+  background-position: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -322,11 +322,8 @@ img {
 }
 
 .social-net .link {
-  width: 44px;
-  height: 44px;
+  padding: 12px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #afb1b8;
 }
 
@@ -436,11 +433,8 @@ img {
 }
 
 .join .link {
-  width: 44px;
-  height: 44px;
+  padding: 12px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #ffffff;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -507,6 +501,13 @@ img {
 
 .our-works-cards-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+.our-works-cards-list-item:hover,
+.our-works-cards-list-item:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  color: var(--main-text-color);
 }
 
 .our-works-cards-list-content {
